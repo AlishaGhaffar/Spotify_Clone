@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.items-center{
+    justify-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+.invert{
+    filter: invert(1)
+}
+
+.rounded{
+    border-radius: 10px;
+}
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4d4d4d; 
+    border-radius: 6px; 
+    border: 3px solid #2c2c2c; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6e6e6e; 
+}
